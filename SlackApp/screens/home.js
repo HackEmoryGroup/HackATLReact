@@ -6,17 +6,18 @@ export default class App extends React.Component {
     return (
       <ScrollView> 
         <View style={styles.topBar}>
-          <Text style={styles.topText}> Slack Is Awesome! </Text> 
+          <Text style={styles.topText}> Title </Text> 
         </View> 
         <View style={styles.container}>
-          
+
           <Image style={styles.image} source={require('../assets/slackLogo.png')}/>
         </View>
+
         <View style={styles.secondContainer}>
 
           <View style={styles.textContainer}> 
 
-            <Text style={styles.secondContainerHeadline}> Slack Is Easy </Text> 
+            <Text style={styles.secondContainerHeadline}> Headline Description </Text> 
 
             <Text style={styles.secondContainerText}> Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -90,8 +91,8 @@ const styles = StyleSheet.create({
   },
   buttonWrapper: {
     backgroundColor: '#ff6b6b',
-    height: 80, 
-    width: 180, 
+    height: 40, 
+    width: 100, 
     marginTop: 40,
     alignItems: 'center',
     justifyContent: 'center',
